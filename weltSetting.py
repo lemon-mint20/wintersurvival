@@ -2,7 +2,7 @@ import pygame
 import time
 import shelve
 
-file = shelve.open('mydata')
+file = shelve.open("data/mydata")
 settings = {'width': 15000, 'height': 15000, 'duration': 300}
 file['settings'] = settings
 print('Startwerte:',list(file.values()))
@@ -43,7 +43,7 @@ class WeltSetting():
               self.nacht = False
               
        def berechne(self):
-              file = shelve.open('mydata')
+              file = shelve.open("data/mydata")
               file['settings']
               print('NeueWerte:',list(file.values()))
               self.n_Haus = round((self.world_width * self.world_height)/4000000)

@@ -35,7 +35,7 @@ Ich empfehle: 10000x10000. Die Tagesdauer gibt an, wie lang der Tag dauert.
         self.a.mainloop()
 
     def play(self):
-        file = shelve.open('mydata')
+        file = shelve.open("data/mydata")
         worldsize = {'width': 15000,
                      'height': 15000,
                      'duration': 300}
@@ -78,7 +78,7 @@ Ich empfehle: 10000x10000. Die Tagesdauer gibt an, wie lang der Tag dauert.
         #r = file.read()
         #r
         #print(r)
-        file = shelve.open('mydata')
+        file = shelve.open("data/mydata")
         worldsize = {'width': int(self.e1.get()),
                      'height': int(self.e2.get()),
                      'duration': int(self.e3.get())}
