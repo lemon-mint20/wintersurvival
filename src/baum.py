@@ -46,6 +46,6 @@ class Baum_gui():
                 self.baumList[b]['y'] -= 1
 
     def blit(self):
-        for i in self.baumList:
-            self.h['Rect'] = pygame.Rect((i['x'],i['y'],i['width'],i['height'] ))
-            self.screen.blit(self.image_baum,self.h['Rect'])
+        for baum in self.baumList:
+            baum_rect = pygame.Rect((baum['x'], baum['y'], baum['width'], baum['height']))
+            self.screen.blit(baum['baumImg'], baum_rect)
