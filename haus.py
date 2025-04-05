@@ -8,8 +8,8 @@ class Haus_gui():
         self.sg = sg
         self.welt = welt
 
-        self.img_haus = pygame.image.load('haus.png')
-        self.imHausImg = pygame.image.load('imhaus.png')
+        self.img_haus = pygame.image.load("assets/haus.png")
+        self.imHausImg = pygame.image.load("assets/imhaus.png")
         self.hausList = []
         #Bewegungrichtung
         self.moving_right = False

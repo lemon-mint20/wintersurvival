@@ -15,7 +15,7 @@ class HausNacht():
         self.hg = hg
         self.sd = sd
         self.startZeit = time.time()
-        self.imHausImg = pygame.image.load('imhaus.png')
+        self.imHausImg = pygame.image.load("assets/imhaus.png")
         self.x = 0
         self.y = 0
 

@@ -20,7 +20,7 @@ Ich empfehle: 10000x10000. Die Tagesdauer gibt an, wie lang der Tag dauert.
         self.a.title('')
         self.a.geometry('735x600+120+50')
 
-        image = PhotoImage(file="startgameImg.png")
+        image = PhotoImage(file="assets/startgameImg.png")
         self.label = Label(self.a, image = image)
         self.label.place(x=0, y=0)
 

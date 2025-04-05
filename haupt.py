@@ -16,7 +16,7 @@ def run_game():
     welt = WeltSetting()
     sd = SpielerDaten(welt)
     screen = pygame.display.set_mode((1000, 600))
-    pygame.display.set_icon(pygame.image.load('spieler.png'))
+    pygame.display.set_icon(pygame.image.load("assets/spieler.png"))
     pygame.display.set_caption('SurvivalGame')
     sg = Spieler_gui(screen)
     hg = Haus_gui(screen, sg, welt)

@@ -13,7 +13,7 @@ class Stats():
         self.text_color = (230,230,230)
         self.msg_color = (100,250,100)
         self.font = pygame.font.SysFont(None, 20)
-        self.foodimg = pygame.image.load('snickers.png')
+        self.foodimg = pygame.image.load("assets/snickers.png")
         self.foodrect = self.foodimg.get_rect(center=(450,20))
 
         self.startZeit = time.time()

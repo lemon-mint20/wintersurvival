@@ -8,7 +8,7 @@ class Spieler_gui():
     def __init__(self, screen):
         self.screen = screen
         #lade Bild und fasse in ein Rechteck
-        self.image = pygame.image.load('spieler.png')
+        self.image = pygame.image.load("assets/spieler.png")
         self.rect = self.image.get_rect()
 
         # Position des Spielers beim Start

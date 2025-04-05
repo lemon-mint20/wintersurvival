@@ -8,7 +8,7 @@ class Baum_gui():
         self.sg = sg
         self.welt = welt
 
-        self.image_baum = pygame.image.load('baum2.png')
+        self.image_baum = pygame.image.load("assets/baum2.png")
         self.baumList = []
         
         #Bewegungrichtung
